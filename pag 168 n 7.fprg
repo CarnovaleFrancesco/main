@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Studente01"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-02-08 09:16:28 "/>
+        <attribute name="created" value="U3R1ZGVudGUwMTtTVFVERU5URTM7MjAyMi0wMi0wODsiMDk6MDI6NTggIjsyODA3"/>
+        <attribute name="edited" value="U3R1ZGVudGUwMTtTVFVERU5URTM7MjAyMi0wMi0wODsiMDk6MTY6MjggIjsxOzI5MTc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, i, t" type="Integer" array="False" size=""/>
+            <assign variable="i" expression="0"/>
+            <assign variable="n" expression="0"/>
+            <assign variable="t" expression="1"/>
+            <output expression="&quot;inserisci un numero&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n&gt;1&amp;&amp;n&lt;20">
+                <then>
+                    <for variable="i" start="1" end="10" direction="inc" step="1">
+                        <assign variable="i" expression="i+1"/>
+                        <assign variable="t" expression="t*1"/>
+                        <output expression="" newline="True"/>
+                    </for>
+                </then>
+                <else/>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

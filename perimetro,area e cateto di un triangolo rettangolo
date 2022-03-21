@@ -1,0 +1,37 @@
+#include <iostream>
+#include <cmath> 
+
+using namespace std; 
+
+int main()
+{
+    //variabili
+     int c1;
+    int c2;
+   int area;
+   int perimetro;
+   int ipotenusa;
+  int h; 
+
+   //input dati
+cout<<" inserisci il valore del primo cateto: ";
+cin>>c1;
+cout<<"/n";
+cout<<"inserisci il valore del ipotenusa";
+cin>>ipotenusa;
+cout<<"/n"; 
+
+   //calcoli
+   c2=sqrt((c1*c1)-(ipotenusa*ipotenusa);
+  perimetro= c1+c2+ipotenusa;
+  h= (c1*c2)/ipotenusa;
+area= (ipotenusa*h)/2; 
+
+  //risposta
+cout<<" questo e' il valore del secondo cateto: "<<c2<<endl;
+cout<<" questo e' il valore del perimetro:"<<perimetro<<endl;
+cout<<" questo e' il valore dell'area: "<<area<<endl; 
+
+   system("pause");
+   return 0;
+}
